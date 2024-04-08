@@ -1,0 +1,6 @@
+@echo off
+echo Deleting contents of youtube_dataset folder...
+del /Q "C:\Users\"PUT_USER_HERE"\AppData\Local\NVIDIA\ChatWithRTX\RAG\trt-llm-rag-windows-main\youtube_dataset\*.*"
+echo Deleting contents of youtube_dataset_vector_embedding folder...
+del /Q "C:\Users\"PUT_USER_HERE"\AppData\Local\NVIDIA\ChatWithRTX\RAG\trt-llm-rag-windows-main\youtube_dataset_vector_embedding\*.*"
+echo Done.
