@@ -51,7 +51,7 @@ while cap.isOpened():
             ###########REMOVE comment to crop images into folder###################
 	    #######################################################################
             # Check if the cropped object has width and height greater than or equal to 100 pixels
-            #if crop_obj.shape[0] >= 100 and crop_obj.shape[1] >= 100:
+            #if crop_obj.shape[0] >= 100 and crop_obj.shape[1] >= 100:       #this is if you dont want small crops
              #   cv2.imwrite(os.path.join(crop_dir_name, str(idx)+".png"), crop_obj)
 
     cv2.imshow("ultralytics", im0)
